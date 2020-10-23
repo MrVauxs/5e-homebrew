@@ -1254,7 +1254,7 @@
 			]
 		},
 		{
-			"name": "Mace of the Black Crown",
+			"name": "Shaped Glass",
 			"source": "CONowa",
 			"baseItem": "mace|PHB",
 			"type": "M",
@@ -1297,6 +1297,28 @@
 								"Once per turn, when you hit an attack with the mace, you can make it deal double damage. After dealing damage to the creature, you take double damage until the start of your next turn."
 							]
 						}
+					]
+				}
+			]
+		},
+		{
+			"name": "N'kuhana's Opinion",
+			"source": "CONowa",
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"curse": true,
+			"entries": [
+				"This highly detailed set of charred bone fuses to the users head upon attunement, placing themselves either as a new set of tusks or horns.",
+				"Whenever you are healed, write down the amount healed as the N'kuhana's Opinion stores some of that energy as Soul Energy. When it gains an amount of Soul Energy equal or higher than your maximum Hit Dice value, subtract it from the counter and gain one charge.",
+				"You can hold an amount of charges equal to half your maximum Hit Die value, and can expend any amount of them as an action to fire a Flaming Skull of Soul Energy per charge spent.",
+				"Each skull hits a creature of your choice within 120 feet and deals force damage equal to your Hit Die. You can direct the skulls to hit one creature or several, and can go around corners or behind cover.",
+				"{@note If you have multiple Hit Dice of different sizes, use the Hit Die you have the most of for this items features.}",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"The N'kuhana's Opinion uses the soul of its user to power itself. Upon attunement, you permanently lose one of your Hit Dice. This reduction can only be reversed only by not being attuned to the item for a week."
 					]
 				}
 			]
